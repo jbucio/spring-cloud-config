@@ -1,0 +1,9 @@
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/jbucio/spring-cloud-config
+          searchPaths: Config
+server:
+  port: 8001
